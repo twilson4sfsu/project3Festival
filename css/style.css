@@ -1,0 +1,55 @@
+@font-face {
+    font-family: roca;
+    src: url("..fonts/rocablack.ttf");
+}
+
+html {
+    background-color: #e94721;
+}
+.headerimg {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+}
+.logo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-bottom: -100px;
+}
+body {
+    margin: 0;
+}
+#nav {
+    color: black;
+    font-family: "roca";
+    display: flex;
+    justify-content: center;
+    
+}
+p {
+    font-family: "roca";
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+a {
+    text-decoration: none;
+    font-size: 50px;
+    margin-right: 20px;
+    color: aqua;
+}
+h2 {
+    font-family: "roca";
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+
+}
+footer {
+    background-color: aqua;
+    margin-bottom: -200px;
+    font-family: "roca";
+    text-align: center;
+}
