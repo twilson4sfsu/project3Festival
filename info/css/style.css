@@ -1,5 +1,6 @@
 html {
     background-color: #e94721;
+    font-family: "roca";
 }
 body{
     margin: 0;
@@ -16,9 +17,31 @@ a {
     font-size: 50px;
     margin-right: 20px;
     color: #f7f004;
+    text-shadow: 2px 2px black;
+}
+a:hover {
+    color: #4e75ba;
 }
 .headerimg {
     width: 100%;
     height: 450px;
     margin: 0;
+}
+h1 {
+    color: #f7f004;
+    font-family: "roca";
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+.bandphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
 }
